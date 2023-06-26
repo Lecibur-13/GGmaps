@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #073B0D;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    max-width: 100vw;
+    max-height: 100vh;
+
+    font-size: 11rem;
+    color: #F9E4B7;
+    text-align: center;
+    font-family: "Mixal";
+    word-break: break-all;
+
+    z-index: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.map-container {
+    width: 700px;
+    height: 700px;
+
+    z-index: 1;
+    overflow: hidden;
+
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.5);
+}
